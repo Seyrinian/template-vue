@@ -7,7 +7,6 @@ export default defineStore('session', () => {
   const isAuthenticated = computed(() => user.value !== null);
 
   function login(newUser: User) {
-    debugger;
     user.value = newUser;
     localStorage.setItem('user', JSON.stringify(newUser));
   }

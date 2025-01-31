@@ -1,8 +1,8 @@
 export const fr = {
-  helloWorld: { increment: 'Incrementer' },
+  helloWorld: { increment: "Incrementer" },
   userSession: {
-    login: 'Se connecter',
-    logout: 'Se déconnecter',
-    askLogin: 'Veuillez vous connecter',
+    login: "Se connecter",
+    logout: "Se déconnecter",
+    askLogin: "Veuillez vous connecter",
   },
 };

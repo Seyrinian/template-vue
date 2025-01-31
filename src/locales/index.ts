@@ -1,5 +1,5 @@
-import { createI18n } from 'vue-i18n';
-import { fr } from './fr';
+import { createI18n } from "vue-i18n";
+import { fr } from "./fr";
 
 const translates = {
   fr,
@@ -7,7 +7,7 @@ const translates = {
 
 export const i18n = createI18n({
   legacy: false, // use Composition API
-  locale: 'fr',
-  fallbackLocale: 'fr',
+  locale: "fr",
+  fallbackLocale: "fr",
   messages: translates,
 });
