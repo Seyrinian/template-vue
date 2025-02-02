@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: Seyrinian/seyrinian-tools/.github/workflows/build.yml@main
+    uses: Seyrinian/.github/.github/workflows/build.yml@main
     with:
       node_version: "20.x"
       is_build: true
