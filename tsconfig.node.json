@@ -1,5 +1,5 @@
 {
-  "extends": ["@seyrinian/seyrinian-tools/tsconfig.json"],
+  "extends": ["@seyrinian/seyrinian-tools/tsconfig"],
   "compilerOptions": {
     "composite": true,
     "noEmit": true
