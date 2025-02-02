@@ -5,4 +5,4 @@ export const fr = {
     logout: "Se déconnecter",
     askLogin: "Veuillez vous connecter",
   },
-};
+}

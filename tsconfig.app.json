@@ -1,14 +1,12 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "extends": [
+    "@vue/tsconfig/tsconfig.dom.json",
+    "@seyrinian/seyrinian-tools/tsconfig.json"
+  ],
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "bundler"
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
