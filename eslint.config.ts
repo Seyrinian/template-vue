@@ -1,9 +1,7 @@
-import eslintConfigPrettier from 'eslint-config-prettier';
-import typescriptEslint from 'typescript-eslint';
-import seyrinianToolsConfig from '@seyrinian/seyrinian-tools/eslint.config';
+import typescriptEslint from "typescript-eslint"
+import seyrinianToolsConfig from "@seyrinian/seyrinian-tools/eslint"
 
 export default typescriptEslint.config(
-  { ignores: ['*.d.ts', '**/coverage', '**/dist'] },
+  { ignores: ["*.d.ts", "**/coverage", "**/dist"] },
   ...seyrinianToolsConfig,
-  eslintConfigPrettier
-);
+)
