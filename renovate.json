@@ -1,0 +1,3 @@
+{
+  "extends": ["github>Seyrinian/.github:renovate"]
+}
