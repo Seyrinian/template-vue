@@ -1,4 +1,5 @@
-import seyrinianToolsReleaseConfig from "@seyrinian/tools/release"
+import seyrinianToolsReleaseConfig from "@seyrinian/seyrinian-tools/release"
+
 export default {
   ...seyrinianToolsReleaseConfig,
 }
