@@ -1,3 +1,3 @@
 export default {
-  extends: "@seyrinian/seyrinian-tools",
+  extends: "@seyrinian/seyrinian-tools/release",
 }
